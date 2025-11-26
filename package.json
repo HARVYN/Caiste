@@ -1,0 +1,15 @@
+{
+  "name": "caiste",
+  "version": "1.0.0",
+  "description": "Pequeña página estática para ejercicios internos de concienciación sobre ingeniería social.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.2.0"
+  }
+}

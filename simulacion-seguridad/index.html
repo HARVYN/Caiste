@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulación de Seguridad</title>
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #f4f6fa;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .card {
+        background: #ffffff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        max-width: 520px;
+        text-align: center;
+        animation: pop 0.5s ease;
+    }
+    @keyframes pop {
+        from { transform: scale(0.85); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    h1 {
+        color: #d83b01;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #333;
+        font-size: 16px;
+        line-height: 1.6;
+        margin: 10px 0;
+    }
+    .emoji {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .btn {
+        margin-top: 20px;
+        display: inline-block;
+        padding: 12px 18px;
+        background: #0078d4;
+        color: #fff;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .btn:hover {
+        background: #005fa3;
+    }
+    .footer {
+        margin-top: 25px;
+        font-size: 12px;
+        color: #666;
+    }
+</style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji">😱</div>
+        <h1>¡Oh no... caíste!</h1>
+        <p><strong>Has sido víctima de un simulacro de ingeniería social.</strong></p>
+        <p>Pero tranquilo, solo fue una prueba interna para fortalecer la cultura de seguridad.</p>
+        <p><strong>Por favor comunícate con el área de IT</strong> para cambiar tu contraseña, ya que qued comprometida.</p>
+        <p>Y recuerda…</p>
+        <p><em>“En Internet, el clic fácil es el enemigo difícil.” 😅</em></p>
+
+        <a href="https://wa.me/+573118037679?text=Fui víctima del simulacro de Ingenieria Social, me ayudas cambiando la contraseña del correo, Gracias." class="btn">Contactar a IT</a>
+
+        <div class="footer">
+            Ejercicio interno de concienciación
+        </div>
+    </div>
+</body>
+</html>
